@@ -4,7 +4,7 @@
 
 Write a wrapper for the `read` and `write` system calls by using the `syscall` function from the glibc. Add the following optimsation: if the number of bytes to read/write is 0, do not call the system call.
 
-The resulting binary should be a shared library named `librw_1.so` and should be usable by any application to replace the original glibc implementations of these two wrappers without changing the behaviour of applications.
+The resulting binary should be a shared library named `librw_1.so` and should be usable by any application to replace the original glibc implementations of these two wrappers without changing the behaviour of applications. 
 
 ## Task 1.2
 
